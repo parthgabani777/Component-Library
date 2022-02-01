@@ -1,0 +1,114 @@
+:root{
+      /* Colors */
+      --primary-color : #613DC1;
+      --secondary-color : #A63D40;
+      --accent-color: #4CB944;
+      --text-color: #2E3532;
+      --background-color: #FCF7F8;
+      --white-color: #FFFFFF;
+      --light-text-color: #72837c;
+}
+
+/* reset */
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+html{
+      font-size: 62.5%;
+}
+body{
+      font-family: 'Roboto',sans-serif;
+}
+ul{
+      list-style: none;
+}
+a{
+      text-decoration: none;
+}
+
+/* Typography */
+/* text */
+.text-xs{
+      font-size: 0.8rem;
+      line-height: 1.6rem;
+}
+.text-s{
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+}
+.text-m{
+      font-size: 2.4rem;
+      line-height: 3.2rem;
+}
+.text-l{
+      font-size: 3.2rem;
+      line-height: 4.0rem;
+}
+.text-xl{
+      font-size: 4.8rem;
+      line-height: 6.4rem;
+}
+
+/* font-weight */
+.fw-light{
+      font-weight: 300;
+}
+.fw-regular{
+      font-weight: 400;
+}
+.fw-semibold{
+      font-weight: 600;
+}
+.fw-bold{
+      font-weight: 700;
+}
+.fw-black{
+      font-weight: 900;
+}
+
+/* Spacing */
+
+/* margin classes */
+.m-1{
+      margin: 1rem;
+}
+.m-2{
+      margin: 2rem;
+}
+.m-3{
+      margin:3rem;
+}
+.m-4{
+      margin:4rem;
+}
+
+/* padding classes */
+.p-1{
+      padding: 1rem;
+}
+.p-2{
+      padding: 2rem;
+}
+.p-3{
+      padding: 3rem;
+}
+.p-4{
+      padding: 4rem;
+}
+
+/* border radius */
+.br-1{
+      border-radius: 5px;
+}
+.br-2{
+      border-radius: 10px;
+}
+.br-3{
+      border-radius: 15px;
+}
+.br-4{
+      border-radius: 50%;
+}
