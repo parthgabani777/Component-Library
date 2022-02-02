@@ -49,3 +49,6 @@ header{
       align-items: center;
       gap:2rem;
 }
+.code-snippet{
+      margin-bottom:2rem;
+}
