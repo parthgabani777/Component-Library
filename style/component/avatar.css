@@ -1,0 +1,24 @@
+.avatar{
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      aspect-ratio: 1/1;
+}
+
+.avatar-s{
+      width: 4rem;
+      height: 4rem;
+}
+.avatar-m{
+      width: 6rem;
+      height: 6rem;
+}
+.avatar-l{
+      width: 8rem;
+      height: 8rem;
+}
+.avatar-xl{
+      width: 10rem;
+      height: 10rem;
+}

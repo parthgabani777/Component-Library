@@ -42,6 +42,14 @@
 .text-black{
       color: var(--text-color);
 }
+.text-accent{
+      color: var(--accent-color);
+}
+
+/* text align */
+.text-center{
+      text-align: center;
+}
 
 /* navigation */
 .nav{

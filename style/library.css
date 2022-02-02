@@ -2,3 +2,4 @@
 @import './util.css';
 
 /* components*/
+@import './component/avatar.css';
