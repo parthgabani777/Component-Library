@@ -7,6 +7,11 @@
       --background-color: #FCF7F8;
       --white-color: #FFFFFF;
       --light-text-color: #72837c;
+
+      --error-color: #f4c7c7;
+      --warning-color: #ffe2b7;
+      --info-color: #b8e7fb;
+      --success-color: #cce8cd;
 }
 
 /* reset */

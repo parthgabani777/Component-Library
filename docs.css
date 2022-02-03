@@ -52,3 +52,9 @@ header{
 .code-snippet{
       margin-bottom:2rem;
 }
+hr{
+      margin-top: 6rem;
+}
+.alert-snippet{
+      margin-top: 3rem;
+}
