@@ -12,6 +12,11 @@
       --warning-color: #ffe2b7;
       --info-color: #b8e7fb;
       --success-color: #cce8cd;
+
+      --online-badge-color:#28a745;
+      --offline-badge-color:#dc3545;
+      --warning-badge-color:#ffc107;;
+      --info-badge-color:#17a2b8;
 }
 
 /* reset */

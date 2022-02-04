@@ -1,26 +1,5 @@
 
 /* utility classes */
-/* buttons */
-.btn{
-      padding: 1rem 2rem;
-      border: 0;
-}
-.btn:hover{
-      opacity: 0.9;
-}
-.btn-dark{
-      background-color: var(--text-color);
-      color: var(--white-color);
-}
-.btn-primary{
-      background-color: var(--primary-color);
-      color: var(--white-color);
-}
-.btn-secondary{
-      background-color: var(--secondary-color);
-      color: var(--white-color);
-}
-
 /* background color */
 .bg-dark{
       background-color: var(--text-color);
