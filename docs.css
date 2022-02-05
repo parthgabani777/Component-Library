@@ -49,8 +49,9 @@ header{
       align-items: center;
       gap:2rem;
 }
-.code-snippet{
+.code-snippet iframe{
       margin-bottom:2rem;
+      width: 60%;
 }
 hr{
       margin-top: 6rem;
@@ -60,4 +61,16 @@ hr{
 }
 .badge-icon{
       margin: 1rem;
+}
+
+@media only screen and (max-width:1200px){
+      .sidebar{
+            display: none;
+      }
+      .main-container{
+            margin-left: 0;
+      }
+      .code-snippet iframe{
+            width: 100%!important;
+      }
 }

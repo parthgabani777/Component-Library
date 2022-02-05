@@ -1,0 +1,19 @@
+/* Responsive Image */
+.img-responsive{
+      width: 100%;
+      max-width: 300px;
+}
+
+/* Cover Image */
+.img-cover{
+      object-fit: cover;
+      object-position: center center;
+}
+
+.img-square{
+      aspect-ratio: 1/1;
+}
+
+.img-rounded{
+      border-radius: 50%;
+}
