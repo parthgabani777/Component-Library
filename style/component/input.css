@@ -2,18 +2,14 @@
       border: 1px solid var(--text-color);
       border-radius: 4px;
       padding: 1rem 2rem;
-      font-size: 2rem;
 }
 .input:focus{
       outline: none;
       border-color: var(--primary-color);
-      box-shadow: 0 0 0 0.3rem rgb(97 61 193 / 25%);
+      box-shadow: 0 0 0 0.3rem var(--primary--shadow-color);
 }
 
-.input option{
-      padding: 1rem;
-}
-
+/* input range */
 .input-range{
       -webkit-appearance: none;
       margin-top: 1rem;

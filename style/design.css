@@ -8,6 +8,9 @@
       --white-color: #FFFFFF;
       --light-text-color: #72837c;
 
+      /* Box Sizing */
+      --primary--shadow-color: rgb(97 61 193 / 25%);
+
       --error-color: #f4c7c7;
       --warning-color: #ffe2b7;
       --info-color: #b8e7fb;
