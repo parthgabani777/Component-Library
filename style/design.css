@@ -108,6 +108,10 @@ a{
 .p-4{
       padding: 4rem;
 }
+.py-1{
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+}
 
 /* border radius */
 .br-1{
