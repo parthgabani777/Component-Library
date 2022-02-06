@@ -109,6 +109,15 @@ a{
       padding: 4rem;
 }
 
+.py-1{
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+}
+.py-2{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+}
+
 /* border radius */
 .br-1{
       border-radius: 5px;
