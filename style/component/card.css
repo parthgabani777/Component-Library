@@ -1,0 +1,71 @@
+.card-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+}
+.card{
+      max-width: 300px;
+      background-color: var(--info-color);
+}
+.card:hover{
+      box-shadow: 0 0 0.5rem 0.3rem var(--primary-shadow-color);
+}
+.card-img img{
+      max-width: 100%;
+      width: 100%;
+}
+.card-actions{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+}
+
+.card.badge-icon{
+      margin: 0;
+}
+.card-badge .badge{
+      border-radius: 0;
+      background-color: var(--primary-color);
+      color: var(--white-color);
+      padding: 0.5rem;
+}
+
+.card-dismiss .badge{
+      top: 5px;
+      right: 5px;
+      color: var(--primary-color);
+}
+.card-dismiss .badge:hover{
+      cursor: pointer;
+}
+
+.img-overlay{
+      position: relative;
+}
+.img-overlay .overlay-content{
+      display: block;
+      position: absolute;
+      bottom: 2rem;
+      left: 1rem;
+}
+
+.card-shadow{
+      box-shadow: 0 0 0.5rem 0.3rem var(--primary-shadow-color);
+}
+
+.card-text{
+      min-width: 300px;
+}
+
+.card-horizontal{
+      display: flex;
+      max-width: 100%;
+}
+.card-horizontal>*{
+      flex: 50%;
+}
+.card-horizontal .card-img{
+      display: flex;
+}
