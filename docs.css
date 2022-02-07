@@ -63,6 +63,15 @@ hr{
       margin: 1rem;
 }
 
+.typography-container{
+      border: 1px solid var(--text-color);
+      padding: 1rem;
+}
+.typography-container>*{
+     padding: 1rem 0;
+     
+}
+
 @media only screen and (max-width:1200px){
       .sidebar{
             display: none;
