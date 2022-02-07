@@ -20,6 +20,11 @@
       --offline-badge-color:#dc3545;
       --warning-badge-color:#ffc107;;
       --info-badge-color:#17a2b8;
+
+      --spacing-xs: 1rem;
+      --spacing-s: 2rem;
+      --sapcing-m: 3rem;
+      --spacing-l: 4rem;
 }
 
 /* reset */

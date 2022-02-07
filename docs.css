@@ -51,6 +51,7 @@ header{
 }
 .code-snippet iframe{
       margin-bottom:2rem;
+      margin-top:2rem;
       width: 60%;
 }
 hr{
