@@ -9,7 +9,7 @@
       --light-text-color: #72837c;
 
       /* Box Sizing */
-      --primary--shadow-color: rgb(97 61 193 / 25%);
+      --primary-shadow-color: rgb(97 61 193 / 25%);
 
       --error-color: #f4c7c7;
       --warning-color: #ffe2b7;
@@ -110,10 +110,6 @@ a{
 }
 .p-4{
       padding: 4rem;
-}
-.py-1{
-      padding-top: 1rem;
-      padding-bottom: 1rem;
 }
 
 .py-1{
