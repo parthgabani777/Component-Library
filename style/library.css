@@ -10,3 +10,5 @@
 @import './component/image.css';
 @import './component/card.css';
 @import './component/navigation.css';
+@import './component/toast.css';
+@import './component/rating.css';

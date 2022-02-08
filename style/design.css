@@ -7,14 +7,21 @@
       --background-color: #FCF7F8;
       --white-color: #FFFFFF;
       --light-text-color: #72837c;
+      --grey-white-color: #DCDCDC;
 
       /* Box Sizing */
       --primary-shadow-color: rgb(97 61 193 / 25%);
 
+      
       --error-color: #f4c7c7;
       --warning-color: #ffe2b7;
       --info-color: #b8e7fb;
       --success-color: #cce8cd;
+
+      /* Rating color */
+      --rating-low-color: #ff4545;
+      --rating-average-color: #ffe234;
+      --rating-high-color: #57e32c;
 
       --online-badge-color:#28a745;
       --offline-badge-color:#dc3545;
