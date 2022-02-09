@@ -1,0 +1,34 @@
+/* For Normal list */
+.list-group{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 0 .3rem .3rem var(--primary-shadow-color);
+      width: fit-content;
+      list-style: none;
+}
+.list-item{
+      padding: var(--spacing-xs);
+}
+.list-item:hover{
+      background-color: var(--primary-color);
+      color: var(--background-color);
+}
+
+/* For Notification list with image,text and dismiss icon */
+.list-stacked .list-item{
+      display: flex;
+      align-items: baseline;
+      justify-content: space-evenly;
+      padding: var(--spacing-s);
+}
+.list-stacked .list-item:hover{
+      cursor: pointer;
+}
+.list-stacked .list-text{
+      padding-left: var(--spacing-xs);
+}
+.list-stacked .list-dismiss{
+      margin-left: auto;
+      padding-left: var(--spacing-xs);
+}

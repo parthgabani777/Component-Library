@@ -11,7 +11,7 @@ header{
 
 .main{
       display: flex;
-      margin-top: 6rem;
+      margin-top: var(--spacing-l);
 }
 
 /* fixed sidebar */
@@ -22,8 +22,8 @@ header{
       height: 100%;
       overflow-y: auto;
       min-width: 20%;
-      padding: 1rem 2rem;
-      padding-bottom: 6rem;
+      padding: var(--spacing-xs) var(--spacing-s);
+      padding-bottom: var(--spacing-l);
 }
 .sidebar a{
       color: var(--text-color);
@@ -36,7 +36,7 @@ header{
       color: var(--white-color);
 }
 .sidebar-title{
-      padding: 2rem 0;
+      padding: var(--spacing-s) 0;
 }
 
 /* main content */
@@ -47,21 +47,27 @@ header{
 .row{
       display: flex;
       align-items: center;
-      gap:2rem;
+      gap:var(--spacing-s);
 }
 .code-snippet iframe{
-      margin-bottom:2rem;
-      margin-top:2rem;
+      margin-bottom:var(--spacing-s);
+      margin-top:var(--spacing-s);
       width: 60%;
 }
 hr{
-      margin-top: 6rem;
-}
-.alert-snippet{
-      margin-top: 3rem;
+      margin-top: var(--spacing-l);
 }
 .badge-icon{
-      margin: 1rem;
+      margin: var(--spacing-s);
+}
+
+.typography-container{
+      border: 1px solid var(--text-color);
+      padding: 1rem;
+}
+.typography-container>*{
+     padding: 1rem 0;
+     
 }
 
 @media only screen and (max-width:1200px){
