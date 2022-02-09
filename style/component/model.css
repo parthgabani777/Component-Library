@@ -1,0 +1,23 @@
+.model{
+      position: relative;
+      padding: var(--spacing-xs);
+}
+.model-dismiss{
+      position: absolute;
+      top: 5%;
+      right: 1rem;
+      padding: 0;
+}
+
+.model-heading{
+      padding: var(--spacing-xs) 0;
+      border-bottom: 1px solid var(--text-color);
+}
+.model-content{
+      padding: var(--spacing-xs) 0;
+}
+.model-action{
+      display: flex;
+      justify-content: flex-end;
+      gap: var(--spacing-xs);
+}
