@@ -40,8 +40,8 @@
                   <a href="#list" class="btn br-3 ">Lists</a>
                   <a href="#navigation" class="btn br-3 ">Navigation</a>
                   <a href="#" class="btn br-3 ">Model</a>
-                  <a href="#" class="btn br-3 ">Rating</a>
-                  <a href="#" class="btn br-3 ">Snakebar</a>
+                  <a href="#rating" class="btn br-3 ">Rating</a>
+                  <a href="#toast" class="btn br-3 ">Toast</a>
                   <a href="#" class="btn br-3 ">Grid</a>
             </aside>
             <div class="main-container p-3">
@@ -483,53 +483,7 @@
                   </div>
   
                   <hr>
-
-                  <div id="list" class="py-2">
-                        <h3 class="text-l py-1">List</h3>
-                        <p class="text-m py-1">List used to display related content in vertical list format.</p>
-
-                        <p class="text-m fw-semibold py-1">Normal List</p>
-                        <ul class="list-group text-m">
-                              <li class="list-item">Item 1</li>
-                              <li class="list-item">Item 2</li>
-                              <li class="list-item">Item 3</li>
-                              <li class="list-item">Item 4</li>
-                        </ul>
-
-                        <div class="code-snippet">
-                              <iframe
-                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=575&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%2520%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E" style="width: 600px; height: 300px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                              </iframe>
-                        </div>
-
-                        <p class="text-m fw-semibold py-1">Stacked(Notification) List</p>
-                        <ul class="list-group list-stacked text-m">
-                              <li class="list-item">
-                                    <i class="fas fa-user-circle list-img"></i>
-                                    <p class="list-text">hi, this is notification 1 from user.</p>
-                                    <i class="fas fa-times list-dismiss"></i>
-                              </li>
-                              <li class="list-item">
-                                    <i class="fas fa-user-circle list-img"></i>
-                                    <p class="list-text">hi, this is notification 2 from user.</p>
-                                    <i class="fas fa-times list-dismiss"></i>
-                              </li>
-                              <li class="list-item">
-                                    <i class="fas fa-user-circle list-img"></i>
-                                    <p class="list-text">hi, this is notification 3 from user.</p>
-                                    <i class="fas fa-times list-dismiss"></i>
-                              </li>
-                        </ul>
-
-                        <div class="code-snippet">
-                              <iframe
-                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=575&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%2520%253Cul%2520class%253D%2522list-group%2520list-stacked%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520list-img%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522list-text%2522%253Ehi%252C%2520this%2520is%2520notification%25201%2520from%2520user.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520list-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E" style="width: 650px; height: 320px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
-                              </iframe>
-                        </div>
-                  </div>
-
-                  <hr>
-
+        
                   <div id="typography">
                         <h3 class="text-l py-1">Typography</h3>
                         <p class="text-m py-1">Typography provides utility classes which can be used to format text.</p>
@@ -592,7 +546,7 @@
                   </div>
         
                   <hr>
-        
+
                   <div id="navigation">
 
                         <h3 class="text-l py-1">Navigation</h3>
@@ -652,7 +606,158 @@
                         </div>
                         
                   </div>
-       
+
+                  <hr>
+
+                  <div id="toast">
+                        <h3 class="text-l py-1">Toast</h3>
+                        <p class="text-m py-1">Toast helps to display content that disapper after some time.</p>
+
+
+                        <div class="py-1">
+                              <div class="toast bg-dark text-white">
+                                    <div class="toast-content text-m">
+                                          <i class="fas fa-user-circle "></i>
+                                          <p class="toast-text text-s">Hello, this is toast message.</p>
+                                    </div>
+                                    <div class="toast-dismiss text-m">
+                                          <i class="fas fa-times btn"></i>
+                                    </div>
+                              </div>
+                        </div>
+                        
+                        <div class="py-1">
+                              <div class="toast bg-dark text-white">
+                                    <div class="toast-content text-m">
+                                          <i class="fas fa-user-circle "></i>
+                                          <p class="toast-text text-s">Hello, this is toast message.</p>
+                                    </div>
+                                    <div class="toast-dismiss text-s">
+                                          <button class="btn toast-btn text-primary">RETRY</button>
+                                    </div>
+                              </div>
+                        </div>
+                        
+                        <div class="code-snippet">
+                              <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=707&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2520bg-dark%2520text-white%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-content%2520text-m%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522toast-text%2520text-s%2522%253EHello%252C%2520this%2520is%2520toast%2520message.%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-dismiss%2520text-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520toast-btn%2520text-primary%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E" style="width: 750px; height: 353px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                        </div>
+                  </div>
+  
+                  <hr>
+
+                  <div id="list" class="py-2">
+                        <h3 class="text-l py-1">List</h3>
+                        <p class="text-m py-1">List used to display related content in vertical list format.</p>
+
+                        <p class="text-m fw-semibold py-1">Normal List</p>
+                        <ul class="list-group text-m">
+                              <li class="list-item">Item 1</li>
+                              <li class="list-item">Item 2</li>
+                              <li class="list-item">Item 3</li>
+                              <li class="list-item">Item 4</li>
+                        </ul>
+
+                        <div class="code-snippet">
+                              <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=575&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-group%2522%253E%2520%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E" style="width: 600px; height: 300px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                        </div>
+
+                        <p class="text-m fw-semibold py-1">Stacked(Notification) List</p>
+                        <ul class="list-group list-stacked text-m">
+                              <li class="list-item">
+                                    <i class="fas fa-user-circle list-img"></i>
+                                    <p class="list-text">hi, this is notification 1 from user.</p>
+                                    <i class="fas fa-times list-dismiss"></i>
+                              </li>
+                              <li class="list-item">
+                                    <i class="fas fa-user-circle list-img"></i>
+                                    <p class="list-text">hi, this is notification 2 from user.</p>
+                                    <i class="fas fa-times list-dismiss"></i>
+                              </li>
+                              <li class="list-item">
+                                    <i class="fas fa-user-circle list-img"></i>
+                                    <p class="list-text">hi, this is notification 3 from user.</p>
+                                    <i class="fas fa-times list-dismiss"></i>
+                              </li>
+                        </ul>
+
+                        <div class="code-snippet">
+                              <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=575&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%2520%253Cul%2520class%253D%2522list-group%2520list-stacked%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522list-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-user-circle%2520list-img%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522list-text%2522%253Ehi%252C%2520this%2520is%2520notification%25201%2520from%2520user.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520list-dismiss%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E" style="width: 650px; height: 320px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                        </div>
+                  </div>
+
+                  <hr>
+
+                  <div id="rating">
+                        <h3 class="text-l py-1">Rating</h3>
+                        <p class="text-m py-1">Rating used to display user feedback in form of star</p>
+
+                        <p class="text-m fw-semibold py-1">Rating icon</p>
+
+                        <div class="rating rating-low text-m py-1">
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                        </div>
+
+                        <div class="rating text-m py-1">
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                        </div>
+
+                        <div class="rating rating-high text-m py-1">
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star active"></i>
+                              <i class="fas fa-star active"></i>
+                        </div>
+
+                        <div class="code-snippet">
+                              <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=500&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520rating-low%2520text-m%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E" style="width: 550px; height: 304px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                        </div>
+
+                        <p class="text-m fw-semibold py-1">Rating text</p>
+                        <div class="py-1">
+                              <div class="rating rating-text text-m">
+                                    <p>3.5</p>
+                                    <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+                        
+                        <div class="py-1">      
+                              <div class="rating rating-text rating-low text-m py-1">
+                                    <p>3.5</p>
+                                    <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+                        
+                        <div class="py-1">
+                              <div class="rating rating-text rating-high text-m py-1">
+                                    <p>3.5</p>
+                                    <i class="fas fa-star"></i>
+                              </div>
+                        </div>
+
+                        <div class="code-snippet">
+                              <iframe
+                              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=400&ds=true&dsyoff=12px&dsblur=48px&wc=true&wa=false&pv=66px&ph=56px&ln=false&fl=1&fm=Hack&fs=12.5px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating%2520rating-text%2520text-m%2522%253E%250A%2520%2520%2520%2520%253Cp%253E3.5%253C%252Fp%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E" style="width: 450px; height: 255px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin">
+                              </iframe>
+                        </div>
+
+                  </div>
             </div>
       </section>
 </body>
