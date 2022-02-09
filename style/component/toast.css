@@ -1,0 +1,32 @@
+.toast{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--spacing-xs);
+      width: fit-content;
+      gap: var(--spacing-xs);
+}
+
+.toast-content{
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-xs);
+      flex-wrap: wrap;
+}
+.toast-img{
+      width: 100%;
+      max-width: 5rem;
+}
+.toast-dismiss{
+      align-self: baseline;
+      display: flex;
+}
+.toast-btn{
+      color: var(--primary-color);
+      background: none;
+      padding: var(--spacing-xs) var(--spacing-xs);
+}
+.toast-btn:hover{
+      background-color: var(--primary-color);
+      color: var(--white-coloe);
+}
