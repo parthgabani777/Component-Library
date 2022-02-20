@@ -38,11 +38,11 @@ Following Components are included in the library:
 
 ## Installation
 
-  To use this library you just have to import style tag in your HTML file.
+  To use this library you just have to import link tag in your HTML file.
 
 
 ```bash
-<link href="https://fastui.netlify.app/style/library.css" />
+<link rel="stylesheet" href="https://fastui.netlify.app/style/library.css" />
 ```
 
 or use can direct import in your css file
