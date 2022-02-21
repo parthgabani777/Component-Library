@@ -29,7 +29,8 @@ header{
       color: var(--text-color);
 }
 .sidebar a:hover{
-      color: var(--light-text-color);
+      color: var(--white-color);
+      background-color: var(--primary-color);
 }
 .sidebar a.active{
       background-color: var(--secondary-color);
