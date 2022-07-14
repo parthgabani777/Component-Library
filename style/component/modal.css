@@ -1,22 +1,22 @@
-.model{
+.modal{
       position: relative;
       padding: var(--spacing-xs);
 }
-.model-dismiss{
+.modal-dismiss{
       position: absolute;
       top: 5%;
       right: 1rem;
       padding: 0;
 }
 
-.model-heading{
+.modal-heading{
       padding: var(--spacing-xs) 0;
       border-bottom: 1px solid var(--text-color);
 }
-.model-content{
+.modal-content{
       padding: var(--spacing-xs) 0;
 }
-.model-action{
+.modal-action{
       display: flex;
       justify-content: flex-end;
       gap: var(--spacing-xs);
